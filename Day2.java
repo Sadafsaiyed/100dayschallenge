@@ -39,7 +39,7 @@ public class Solution {
             
             int[] game = new int[n];
             for (int i = 0; i < n; i++) {
-                game[i] = scan.nextInt();
+                game[i] = scan.nextInt(); 
             }
 
             System.out.println( (canWin(leap, game)) ? "YES" : "NO" );
