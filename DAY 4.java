@@ -1,3 +1,6 @@
+https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
+
+
 import java.util.*;
 import java.io.*;
 
