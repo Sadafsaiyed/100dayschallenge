@@ -15,5 +15,4 @@ Constrain 1 - number must be integer.
 Three methods i will suggest -
 1.concatenation method
 2.value of that is method
-3.Two integer method 
-
+3.To String method 
