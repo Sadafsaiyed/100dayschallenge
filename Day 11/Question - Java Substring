@@ -1,0 +1,24 @@
+Question Link- https://www.hackerrank.com/challenges/java-substring/problem?isFullScreen=true
+Question-Given a string,S , and two indices, Start  and End , print a substring consisting of all characters in the inclusive range from Start to End-1 . You'll find the String class' substring method helpful in completing this challenge.
+
+Input Format-
+The first line contains a single string denoting .
+The second line contains two space-separated integers denoting the respective values of Start  and  End.
+
+Constraints -
+1<=|s|<=100
+0<=start<end<=n
+String  consists of English alphabetic letters [a-z , A-Z] only.
+
+Output Format-
+Print the substring in the inclusive range from  Start to end-1
+
+Sample Input-
+Helloworld
+3 7
+
+Sample Output-
+lowo
+
+Explanation
+In the diagram below, the substring is highlighted in green:
