@@ -1,0 +1,23 @@
+class Solution {
+    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+        String str1=findstr(word1);
+        String str2=findstr(word2);
+        if(str1.equalsIgnoreCase(str2))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    public String findstr(String[] word)
+    {
+        String str="";
+        for(int i=0; i<word.length; i++)
+        {
+            str=str+word[i];
+        }
+        return str;
+    }
+}
