@@ -1,37 +1,19 @@
-public class Solution {
-
-  public boolean hasCycle(ListNode head) {
-
-    if(head==null){
-
-      return false;
-
-    }
-
-    ListNode firstPtr = head;
-
-    ListNode SecondPtr = head.next;
-
-    while(firstPtr!= SecondPtr){
-
-       
-
-       if(SecondPtr==null || SecondPtr.next==null){
-
-         return false;
-
+class Solution {
+    public ListNode removeElements(ListNode head, int val) {
+       if(head==null){
+           return null;
        }
-
-       firstPtr=firstPtr.next;
-
-       SecondPtr=SecondPtr.next.next;
-
-
-
+       ListNode temp = new ListNode();
+       temp.next = head;
+       ListNode curr = temp;
+       while(curr.next!=null){
+           if(curr.next.val==val){
+               curr.next=curr.next.next;
+           }
+           else{
+               curr=curr.next;
+           }
+       }
+       return temp.next;
     }
-
-    return true;
-
-  }
-
 }
